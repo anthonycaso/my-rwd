@@ -38,8 +38,21 @@ nav ul  {
   list-style-type: none;
 }
 
-/* ----- Nav Bar ----- */
+nav ul li {
+  display: inline-block;
+}
+
+/* ----- Top-Right Positioned Navbar ----- */
 
 nav ul li {
   display: inline-block;
+}
+
+nav {
+  width: 175px;
+  position: absolute; top: 0; right: 0;
+}
+
+#page-wrapper {
+  position: relative;
 }
